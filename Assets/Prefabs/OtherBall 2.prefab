@@ -139,12 +139,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _ballLevel: 0
   _crackPartCount: 0
-  _afterBall: []
+  _afterBall:
+  - {fileID: 1565527686790752554, guid: b3f496aa4e5d35746af3c90cafbc3f3e, type: 3}
+  - {fileID: 1565527686790752554, guid: b3f496aa4e5d35746af3c90cafbc3f3e, type: 3}
   _dropItem:
   - {fileID: 2650802695680196505, guid: fea92907e63e90e429c70897e4cb9927, type: 3}
   - {fileID: 5029673167943798252, guid: 781595ae63bb0fa44a3bee01d927dd6d, type: 3}
   _ballSpeed: 0
-  _ballStartForce: []
+  _ballStartForce:
+  - -2
+  - 2
   _ballLife: 0
 --- !u!1 &7809043397047556898
 GameObject:

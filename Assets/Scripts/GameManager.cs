@@ -123,7 +123,6 @@ public class GameManager : MonoBehaviour
         {
             timeLeft -= Time.deltaTime;
             timerBar.fillAmount = timeLeft / maxTime;
-            
         }
         else if(Game.isPlaying)
         {

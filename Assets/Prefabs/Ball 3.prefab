@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 4501012754945767238}
   - component: {fileID: 4151646859290174800}
   m_Layer: 6
-  m_Name: Ball 2
+  m_Name: Ball 3
   m_TagString: Ball
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -29,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 1565527686790752554}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 3.37, z: 0}
-  m_LocalScale: {x: 0.025, y: 0.025, z: 0.06}
+  m_LocalScale: {x: 0.015, y: 0.015, z: 0.06}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 3909853054019621441}
@@ -139,16 +139,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _ballLevel: 0
   _crackPartCount: 0
-  _afterBall:
-  - {fileID: 1565527686790752554, guid: eb944357caa3f2046a269064c5f9e8c1, type: 3}
-  - {fileID: 1565527686790752554, guid: eb944357caa3f2046a269064c5f9e8c1, type: 3}
+  _afterBall: []
   _dropItem:
   - {fileID: 2650802695680196505, guid: fea92907e63e90e429c70897e4cb9927, type: 3}
   - {fileID: 5029673167943798252, guid: 781595ae63bb0fa44a3bee01d927dd6d, type: 3}
   _ballSpeed: 0
-  _ballStartForce:
-  - 2
-  - -2
+  _ballStartForce: []
   _ballLife: 0
 --- !u!1 &8278436507351982512
 GameObject:
